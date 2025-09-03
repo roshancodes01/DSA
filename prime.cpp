@@ -20,8 +20,6 @@ int main() {
             i++;
         }
     }
-
-    // MOVED THIS BLOCK INSIDE main()
     if (isPrime) {
         cout << n << " is a prime number";
     } else {
