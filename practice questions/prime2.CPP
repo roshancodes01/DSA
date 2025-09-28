@@ -7,16 +7,16 @@ int main(){
     cin >> n;
     bool isPrime = true;
 
-    for( int i = 2; i<=n-1; i++){
+    for( int i = 2; i*i <= n; i++){
         if(n % i == 0){
             bool isPrime = false;
             break;
         }
     }
     if(isPrime == true){
-        cout<< n << " is a prime number\n";
+        cout<< n <<" is a prime number\n";
     }else{
-        cout<< n << " is non prime number\n";
+        cout<< n <<"is non prime number\n";
     }
 
 }
