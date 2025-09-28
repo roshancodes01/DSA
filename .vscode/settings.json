@@ -1,6 +1,0 @@
-{
-    "discord.removeRemoteRepository": true,
-    "files.associations": {
-        "iostream": "cpp"
-    }
-}
